@@ -1,0 +1,1 @@
+document.querySelector('.lnXdpd').classList.add('spinspinspin')
