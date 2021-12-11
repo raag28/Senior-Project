@@ -6,7 +6,10 @@
         <title>Document</title>
     </head>
     <body>
-        <button>Archive Site</button>
-        <script></script>
+        <form action="{{ url_for('gfg') }}" method="post" enctype="multipart/form-data">
+            <label for="url"></label>
+            <input type="text" id="url" name="url" placeholder="Paste URL Here">
+            <button type="submit">Archive Site</button>
+        </form>
     </body>
 </html>
