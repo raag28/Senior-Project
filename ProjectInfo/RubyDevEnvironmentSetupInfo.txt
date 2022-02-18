@@ -1,0 +1,22 @@
+/** These are my running notes of how I set up my linux dev environment.  I think we will ultimately change to a windows dev environment, so it is okay to ignore this for now.  -- SW 2-18-2022 **/
+
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install git -y
+
+sudo apt install linuxbrew-wrapper
+
+
+sudo apt-get install ruby
+sudo apt-get install sqlite3
+sudo apt-get install node.js
+sudo apt-get install yarn
+sudo apt-get install ruby-dev
+
+need to install devkit?  Then:
+sudo gem install rails
+
+To install devkit, download:
+https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.7.5-1/rubyinstaller-devkit-2.7.5-1-x64.exe
+
+Based on: https://guides.rubyonrails.org/getting_started.html
